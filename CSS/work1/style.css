@@ -1,0 +1,16 @@
+h1{
+    color:grey;
+}
+button{
+    color:red;
+    background-color:pink;
+}
+body{
+background-color:rgb(185, 242, 247);
+}
+p{
+    color:rgb(0,150,0)
+}
+pre{
+    color:#0000ff;
+}
