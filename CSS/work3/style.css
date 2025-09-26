@@ -1,0 +1,39 @@
+.heading{
+    text-align:center;
+    text-decoration:blue underline;
+}
+h2{
+  text-decoration:red wavy overline;
+}
+h3{
+    text-decoration:dotted line-through;
+}
+a{
+    text-decoration:none
+}
+#a{
+    font-weight:normal;
+}
+#b{
+    font-weight:bolder;
+}
+#c{
+    font-weight:lighter;
+}
+#d{
+    font-weight:100;
+}
+#one{
+    text-align:center;
+    font-family:Arial;
+    font-size:15px;
+    
+}
+#two
+{
+    font-weight:400;
+    font-family:'Lucida Sans';
+    font-size:20px;
+    line-height:40px;
+
+}
