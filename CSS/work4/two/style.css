@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    color:antiquewhite
+}
+
+
+#parent{
+    height:400px;
+    width:400px;
+    background-color:#1B3C53;
+    margin:100px 100px 100px 100px;
+    line-height:35px;
+    font-size: 30px;
+    font-weight:bold;
+    font-family: 'Segoe UI';
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px grey;
+    padding-top:1px;
+}
+#child1{
+    width:50px;
+    background-color: rgb(96, 106, 116);
+    border-radius:30%;
+    text-align: center;
+    box-shadow: rgb(160, 203, 225) 0px 0px 10px;
+    margin-top:100px;
+    margin-left: 165px;
+}
+#child2{
+    margin:20px 0px 0px 162px;
+    width:70px;
+    color:darkgrey;
+    
+}
+#child3{
+    margin:10px 0px 0px 105px;
+    width:200px;
+    color:darkgrey;
+}
