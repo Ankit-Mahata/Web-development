@@ -1,0 +1,9 @@
+div{
+    background-color: lightblue;
+    display: inline;  /* div, p , br , h are block tag .while button, a , span etc are inline tag . to convert inline into block and vice versa we use display property  */
+    padding: 10px;
+}
+button{
+    background-color: lightgreen;
+
+}
