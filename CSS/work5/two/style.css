@@ -1,0 +1,17 @@
+#one{
+    background-color: red;
+}
+#two{
+    background-color: green;
+}
+#three{
+    background-color: blue;
+}
+div{
+    height:100px;
+    width:100px;
+    margin:20px;
+    padding:25px;
+    color: white;
+    display:inline-block;
+}
