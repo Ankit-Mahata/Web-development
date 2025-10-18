@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+#navbar{
+    background-color: #0f1111;
+    height:60px;
+    padding:2px;
+}
+#logo{
+    font-size: 25px;
+    color:#f08804;
+    margin-left:10px;
+}
+a{
+    margin-right:175px;
+    padding-top:10px;
+    text-decoration:none;
+}
+button{
+    background-color:#f08804;
+    border:none;
+    width:4%;
+    height:20px;
+    border-radius:3px;
+}
+#search{
+    height:20px;
+    width:15%;
+    border:none;
+    border-radius:3px;
+    padding-left:5px;
+}
+#contact{
+    margin-right:120px;
+}
+.content{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    margin-top:200px;;
+    display:inline-block;
+    margin-right:20px;
+}
+#one{
+    background-color:rgba(100,0,0,0.5);
+}
+#two{
+    background-color: rgba(0,100,0,0.5);
+}
+#three{
+    background-color: rgba(0,0,100,0.5);
+}
+footer{
+    background-color:#0f1111;
+    height:40px;
+    text-align:center;
+}
+#container{
+    background-color: lightgrey;
+    height:500px;
+    padding-left:450px;
+}
