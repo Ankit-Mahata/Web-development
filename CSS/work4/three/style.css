@@ -14,9 +14,10 @@
     margin-left:10px;
 }
 a{
-    margin-right:200px;
+    margin-right:175px;
     padding-top:10px;
     text-decoration:none;
+    display:inline;
 }
 button{
     background-color:#f08804;
@@ -31,4 +32,7 @@ button{
     border:none;
     border-radius:3px;
     padding-left:5px;
+}
+#contact{
+    margin-right:100px;
 }
