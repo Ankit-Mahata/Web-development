@@ -1,0 +1,22 @@
+.parent{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin:20px;
+    padding:20px;
+    font-size:50px;
+    text-align:center
+}
+.child{
+height:100px;
+width:100px;
+background-color:rgb(6, 141, 6);
+margin-left: 50px;
+margin-top:20px;
+border-radius: 50%;
+font-size:5rem;
+text-align:center;
+line-height:95px;
+width:2em;
+height:50vh;
+}
