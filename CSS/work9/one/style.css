@@ -1,0 +1,22 @@
+#box1{
+    height:100px;
+    width:100px;
+    background-color:rgba(179, 91, 67,0.8);
+    background-image:url("flowers.jpg");
+    background-size:cover;
+}
+#box2{
+    height:100px;
+    width:100px;
+    background-color:rgb(177, 214, 247);
+    position:relative;
+    top:20px;
+    left:-20px;
+    background-image:url("mountain.jpg");
+    background-size:contain;
+
+}
+div{
+    display:inline-block;
+    margin:20px;
+}

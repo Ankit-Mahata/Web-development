@@ -1,0 +1,12 @@
+div{
+    height:100px;
+    width:100px;
+    background-image:url("nature.jpg");
+    background-size:cover;
+    color:thistle;
+    text-align:center;
+    line-height:150px;
+    position:fixed;
+    right:0px;
+    
+}
