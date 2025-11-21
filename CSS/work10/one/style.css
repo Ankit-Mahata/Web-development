@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+#container{
+    width:300px;
+    border:2px solid black;
+    height:500px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center; /*main axis ko center*/
+    flex-wrap:wrap;
+    align-items:center; /*cross axis ko center ma rakhne*/
+    align-content:center; /*cross axis ma sabai items lai center ma rakhne*/
+}
+.box{
+    height:50px;
+    width:100px;
+    border: 0.5px solid rgb(17, 17, 17);
+    display:inline-block;
+    color:rgb(0, 0, 0);
+}
+#one{
+    background-color: rgb(242, 73, 73);
+}
+#two{
+    background-color: rgb(108, 108, 252);
+}
+#three{
+    background-color: green;
+}
+#four{
+    background-color: rgb(237, 237, 115);
+}
+#five{
+    background-color: rgb(255, 113, 255);
+}

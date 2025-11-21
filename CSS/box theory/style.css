@@ -7,6 +7,8 @@
     border-style: solid;
     border-color: brown;
     color: blue;
+    line-height: 100px;
+    text-align: center;
 }
 h1{
     background-color:lightblue;
