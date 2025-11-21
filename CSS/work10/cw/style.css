@@ -1,0 +1,35 @@
+#navbar{
+    height:100px;
+    width:100%;
+    background-color:rgba(82, 82, 86,0.8);
+    border:1px solid black;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+    
+a{
+    text-decoration:none;
+    color:white;
+    height:20px;
+    width:70px;
+    background-color:rgb(20, 198, 198);
+    text-align:enter;
+    margin:2px;
+    border-radius:20px;
+}
+#outer{
+    height:200px;
+    width:200px;
+    background-color:rgba(113, 19, 66,0.7);
+    border:1px solid black;
+    margin:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#inner{
+    height:40px;
+    width:50px;
+    background-color:rgba(35, 243, 243, 0.7);
+}
