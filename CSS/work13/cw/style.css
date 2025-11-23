@@ -1,0 +1,33 @@
+#circle{
+    width:150px;
+    height:150px;
+    border:15px solid rgb(93, 199, 206);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 50px;
+    border-top-color: rgb(19, 73, 117);
+    border-radius:50%;
+    animation:spin 2s ease-in-out infinite;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes reversespin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(-360deg);
+    }
+}
+/* rotating inside content in reverse direction to overcome the rotation of whole block */
+#content{
+    font-size:20px;
+    animation: reversespin 2s ease-in-out infinite;
+}
