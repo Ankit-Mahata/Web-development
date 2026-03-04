@@ -1,0 +1,13 @@
+div{
+    height:150px;
+    width:150px;
+    background-color:rgba(122, 122, 195,0.5);
+    color:rgb(78, 69, 69);
+    border:2px solid black;
+    font-size:20px;
+    box-sizing: border-box;
+    padding-left:25px;
+    padding-top:60px;
+
+
+}
