@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            font-family:"Gilroy";
+            box-sizing:border-box;
+        }
+        html,body{
+            width:100%;
+            height:100%;
+        }
+        body ul{
+            padding:30px;
+        }
+        #main{
+            width:100%;
+            height:100%;
+            background-color:#222;
+        }
+        #nav{
+            display:flex;
+            align-items:center;
+            justify-content: space-around;
+            width:100%;
+            height:100px;
+            background-color: #3c3535;
+        }
+        a{
+            color:white;
+        }
+        button{
+            padding:12px 22px;
+            background-color:rgb(206, 84, 84);
+            border-radius: 5px;
+            border:none;
+        }
+        ul h3{
+            color:rgb(105, 209, 141);
+        }
+        ul li{
+            color:white;
+        }
+        .line{
+            text-decoration: line-through;
+        }
+        .title{
+            height:40px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:orange;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .a{
+            margin:50px;
+            height:250px;
+            width:250px;
+            background-color: rgb(189, 221, 249);
+        }
+        .b{
+            height:80%;
+            width:80%;
+            background-color: rgb(56, 109, 72);
+        }
+        .c{
+            height:80%;
+            width:80%;
+            background-color: rgb(54, 52, 92);
+        }
+        #click{
+            border-radius:0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="title"><h2>Event bubbling<h2></div>
+        <div id="nav">
+            <a id="home" href="">home</a><a id="about" href="">about</a>
+            <button>click and follow</button>
+        </div>
+        <ul>
+            <h3>click fruits</h3>
+            <li>Apple</li>
+            <li>guava</li>
+            <li>mango</li>
+            <li>grapes</li>
+        </ul>
+        <div class="title"><h2>Event capturing<h2></div>
+            <div class="a">
+                <div class="b">
+                    <div class="c">
+                        <button id="click">click me</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="script5.js"></script>
+</body>
+</html>
