@@ -5,8 +5,11 @@ let  p=document.querySelector("p");
 let  h2=document.querySelector("h2");
 
 button.addEventListener("click",function(){
-coount=0;
-setInterval(function(){
+count=0;
+progress.style.width=`0%`;
+    p.textContent="0%";
+    h2.textContent="Downloading File...";
+let cls=setInterval(function(){
 if(count<100){
     count++;
     progress.style.width=`${count}%`;
@@ -14,6 +17,7 @@ if(count<100){
 }
 else{
     h2.textContent="Downloaded";
+    clearInterval(cls);
 }
 },30)
 }); 
