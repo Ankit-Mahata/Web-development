@@ -1,0 +1,39 @@
+
+body.light{
+    background-color:#fff;
+    color : rgb(71, 63, 63);
+}
+
+body.dark{
+    background-color:rgb(36, 33, 33);
+    color : #fff;
+}
+
+body{
+    margin: 0;
+    font-family:"Helvetica Now Diaplay", Helvetica, sans_serif;
+    transition : 
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+.container{
+    height:100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;   
+}
+button{
+    margin-top:20px;
+    padding : 10px 20px;
+    font-size: 16px;
+    cursor : pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: #999;
+    color: #f7f5f5;
+}
+button:hover{
+   background-color:#7c7979;
+   color:white;
+}
