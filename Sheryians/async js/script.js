@@ -5,6 +5,20 @@ setTimeout(()=>{
 console.log("hey3");},3000);
 console.log("hey4");
 
+// sync matlab ek sakiye pachhi matra arko kam 
+// suru garnu 
+// async matlab sabai kam sangai suru garnu tara jasko answer pahila aayo tyo respod gardinu
+
+// for instant 
+// task a = 5s 
+// task b = 3s
+// task c = 10s
+
+// sync behaviour ma total task complete garna 
+// 18 seconds lagne hun 
+// tara async ma total task garna 10 seconds lagne hun
+
+
 // callback
 
 let time;
