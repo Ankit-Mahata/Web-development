@@ -48,7 +48,7 @@ greet(bye);
 /* callbacks vaneko tyo function ho jaslai as
 an argument pathainchha kunai function ma , so that teslai kehi time pachhi use/call garna sakiyos */
 // here bye is a callback
-// but , yesto greet(bye()); yesto vaidiyeko vaye
+// but , yesto, greet(bye()); yesto vaidiyeko vaye
 // tyo callback hune thiyena , kinaki yo bela 
 // bye() instant call hune thiyo
 /* callback ko main purpose vaneko 
