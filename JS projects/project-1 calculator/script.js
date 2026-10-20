@@ -12,7 +12,7 @@ function show(key) {
 
 
 
-// calculation handling 
+//  calculation handling 
 /* if user inputs "25+10*2", first process is tokenization  and then infix to postfix and postfix evaluation  */
 
 function calculate(expression){
