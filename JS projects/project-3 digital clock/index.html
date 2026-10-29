@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>digital clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="digital-clock">
+        <div id="head" class="clock-item">
+            <div id="logo">
+                <span id="line"></span>
+                <div id="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1em" viewBox="0 -1 24 24"><title>clock</title><g fill="none" stroke="#5f86ec" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></g></svg>
+                </div>
+                <span id="line"></span>
+
+            </div>
+            <div id="message">good things take time</div>
+        </div>
+        <div id="time" class="clock-item ">
+            <div id="hr" class="flx time-style"></div>
+            <div class="colon time-style">:</div>
+            <div id="min" class="flx time-style"></div>
+            <div class="colon time-style">:</div>
+            <div id="sec" class="flx time-style"></div>
+            <div id="suffix" class="flx">AM</div>
+        </div>
+        <div id="date" class="clock-item flx">
+            <div id="day" class="flx">Monday</div>
+            <div id="dayVal" class="flx">22</div>
+            <div id="month" class="flx">April</div>
+            <div id="year" class="flx">2026</div>
+        </div>
+        <div id="format-toggler" class="clock-item flx">
+            <div id="box" class="flx">
+              <div id="xiih" value="false" class="flx">12H</div>
+              <div id="xxivh" value="true" class="flx shadow">24H</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
